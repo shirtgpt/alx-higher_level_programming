@@ -10,9 +10,9 @@ class Square:
     initializing the class at start
     """
 
-    def __init__(self, _size: int = 0):
-        if type(_size) != int:
+    def __init__(self, __size: int = 0):
+        if type(__size) != int:
             raise TypeError("size must be an integer")
-        if _size < 0:
+        if __size < 0:
             raise ValueError("size must be >= 0")
-        self._size = _size
+        self.__size = __size
