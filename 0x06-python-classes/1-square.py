@@ -10,5 +10,5 @@ class Square:
     initializing the class at start
     """
 
-    def __init__(self, _size: int):
-        self._size = _size
+    def __init__(self, __size: int):
+        self.__size = __size
